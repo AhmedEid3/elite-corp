@@ -227,3 +227,24 @@ body {
     transition: all 0.3s ease-in-out;
 }
 /* End Featured Work */
+
+
+/* Start Latest Post */
+.latest-post{
+    padding: 0 0 50px;
+}
+.latest-post h2 {
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.latest-post p {
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: #687074;
+    margin-bottom: 50px;
+}
+/* End Latest Post */
