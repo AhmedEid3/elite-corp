@@ -1,0 +1,226 @@
+/*
+Theme Name: EliteCrop;
+Theme Coder: Ahmed Eid;
+PSD Designer: ;
+First Color: #08526d;
+Second Color: #ec1c23;
+
+*/
+
+body {
+    font-family: 'Lato', sans-serif;
+    min-height: 2000px
+}
+
+
+/*Start Upper-nav*/
+.upper-nav {
+    background-color: #08526d;
+    color: #ffffff;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.upper-nav span {
+    color: #929fa5;
+}
+.upper-nav i {
+    margin-left: 15px;
+    margin-right: 3px;
+}
+.get-quote{
+    display: inline-block;
+    border: 1px solid #ec1c23;
+    padding: 2px 10px;
+    margin-left: 20px;
+}
+/*End Upper-nav*/
+
+/*Start Navbar*/
+.navbar-brand span{
+    font-size: 40px;
+}
+.navbar-brand span:first-child {
+    color: #08526d;
+    font-weight: 600;
+}
+.navbar-brand span:last-child {
+    color: #ec1c23;
+    font-weight: 300;
+}
+
+.navbar .navbar-nav .nav-link{
+    color: #08526d;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.navbar .navbar-nav .nav-item.active .nav-link {
+    color: #ec1c23;
+}
+/*End Navbar*/
+
+/*Start Slider*/
+.slider {
+    background-color: #cccccc;
+}
+.slider .carousel-inner{
+    display: flex;
+    align-items: center;
+}
+.slider .carousel-inner h1 {
+    position: absolute;
+    z-index: 3;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    left: 15px;
+    right: 15px;
+}
+.slider .carousel-inner h1 span {
+    background-color: #ec1c23;
+    padding-left: 15px;
+}
+.slider .carousel-inner .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+}
+
+.slider .carousel-item {
+    background-size: cover;
+}
+.slider .slid-one{
+    background-image: url('../img/01.jpg');
+}
+.slider .slid-two{
+    background-image: url('../img/02.jpg');
+}
+.slider .slid-three{
+    background-image: url('../img/03.jpg');
+}
+
+.slider .carousel-indicators li {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+}
+/*End Slider*/
+
+
+/* Start Features */
+.features{
+    margin: 100px 0;
+}
+
+.features i.rounded-circle{
+    background-color: #ec1c23;
+    color: #ffffff;
+    margin-bottom: 15px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+}
+.features h3 {
+    color: #08526d;
+    font-weight: bold;
+    font-size: 22px;
+}
+.features p {
+    color: #687074;
+    font-size: 16px;
+}
+
+/* Start Features */
+
+
+/* Start Overview  */
+.overview{
+    padding: 100px 0;
+    background-color: #f0f5f7;
+}
+.overview h2 {
+    font-size: 42px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.overview p {
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 35px;
+    color: #687074;
+}
+.overview h4 {
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 3px;
+    line-height: 24px;
+    color: #687074;
+    text-transform: capitalize;
+}
+.overview button {
+    background-color: #ec1c23;
+    color: #ffffff;
+    margin-top: 30px;
+    padding: 8px 35px;
+    border: none;
+}
+/* End Overview  */
+
+
+/* Start Featured Work */
+.featured-work{
+    padding: 100px 0;
+}
+.featured-work h2 {
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.featured-work p {
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: #687074;
+    margin-bottom: 50px;
+}
+.featured-work ul li {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #08526d;
+    border:1px solid #08526d;
+    padding: 7px 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.featured-work ul li.active,
+.featured-work ul li:hover{
+    background-color: #ec1c23;
+    color: #ffffff;
+    border:1px solid #ec1c23;
+}
+.featured-work ul li:hover{
+    cursor: pointer;
+}
+.featured-work ul li.active:hover{
+    cursor: inherit;
+}
+.featured-work .shuffle-images{
+    margin-top: 25px;
+}
+.featured-work .shuffle-images img{
+    width: 100%;
+}
+/* End Featured Work */
